@@ -8,11 +8,11 @@ public class Main {
         Fraction fraction3 = new Fraction(2,4);
 
         fraction1 = fraction2.shareFraction(fraction3);
-        System.out.println(fraction1 + " Деление");
+        System.out.println(fraction1 + " Дел");
         fraction1 = fraction2.sumFraction(fraction3);
-        System.out.println(fraction1 + " Сумма");
+        System.out.println(fraction1 + " Сум");
         fraction1 = fraction2.substractFraction(fraction3);
-        System.out.println(fraction1 + " Вычитание");
+        System.out.println(fraction1 + " Вычит");
 
         Point a = new Point();
         a.inputPoint();
